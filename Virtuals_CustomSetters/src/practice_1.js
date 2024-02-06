@@ -7,3 +7,4 @@ console.log(words);
 for(var i = 0; i < words.length ; i ++){
      console.log(words[i]+" ");
 } 
+
