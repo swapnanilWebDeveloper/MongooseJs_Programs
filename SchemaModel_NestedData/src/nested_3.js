@@ -115,7 +115,7 @@ async function main() {
     ]);
 
     const allPerson = await Person.find({});
-   // console.log(allPerson);
+    //console.log(allPerson);
 
     for (var i = 0; i < allPerson.length; i++){
         console.log("first Name = " + allPerson[i].name.first + ", last Name = " + allPerson[i].name.last);
